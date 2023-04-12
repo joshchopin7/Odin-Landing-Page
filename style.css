@@ -46,7 +46,28 @@ body {
 }
 
 .second {
+    display: flex;
+    flex-direction: column;
+}
 
+#secondLabel {
+    display: flex;
+    justify-content: center;
+}
+
+.drinkContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+a{
+    text-align: center;
 }
 
 .third {
