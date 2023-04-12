@@ -13,6 +13,8 @@ body {
     padding-inline: 120px;
 }
 
+/* This is the fist Section */
+
 .first  {
     background-color: #1F2937;
     display: flex;
@@ -28,7 +30,7 @@ body {
 .logo {
     color: white;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +39,7 @@ body {
 
 .links, ul {
     color: rgba(255, 255, 255, 0.707);
+    font-size: 14px;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -44,6 +47,40 @@ body {
     padding: 0;
     gap: 36px;
 }
+
+.titleSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.leftTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+#subtitle {
+    color: #c6c8cb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    max-width: 120px;
+    height: 30px;
+    border-radius: 9px;
+    border-style: none;
+}
+
+/* This is the Second Section */
 
 .second {
     display: flex;
@@ -70,10 +107,38 @@ a{
     text-align: center;
 }
 
+
+
+/* This is the Third Section */
+
+
 .third {
     background-color: #e5e7eb;
 }
 
+.quote {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#quoteText {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* This is the Fourth Section */
 .fourth {
 
 }
